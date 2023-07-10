@@ -18,11 +18,9 @@
 
 main img {
     width: 100%;
-    padding: 8px;
 }
 
 h2 {background-color: rgb(67, 174, 154);
-    padding: 10px 20px;
     margin: 5px;
     color: blue;}
 
@@ -47,7 +45,6 @@ body {
     color: rgba(18, 103, 138, 1);
     text-align: center;
     background-color: rgb(123, 162, 179);
-    padding: 10px;
     margin: 20px;
     font-size: 2.6rem;
     border-top-style: dotted;
@@ -61,7 +58,6 @@ body {
     align-items:center;
  }
 .parrafoinicial p{
-    padding: 15px;
     margin: 10px;
     font-size: 1.4rem;
 }
@@ -82,8 +78,6 @@ body {
 .contacto{
     margin: 15px;
     padding: 10px;
-    display: flex;
-    align-content: space-around;
 }
 .contacto label{
     font-size: 1rem;
@@ -136,12 +130,6 @@ footer img {
     text-align: center;
     color: rgba(18, 103, 138, 1);
 }    
-.mapa{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    margin: 20px;
-}
 
 #galeria{
     width:100%;

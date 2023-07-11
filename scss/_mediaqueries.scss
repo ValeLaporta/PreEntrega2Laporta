@@ -1,0 +1,15 @@
+@media ( width < 376px ) 
+    {
+    .parrafoinicial {
+    display: flex;
+    flex-direction:column;
+    font-size: $SizeSm;
+    }
+    img {
+        align-items: end;
+    }
+    .inicio{
+        font-size: 1.2rem;
+    }
+    }
+    

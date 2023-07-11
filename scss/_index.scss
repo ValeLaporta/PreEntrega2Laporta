@@ -1,0 +1,35 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+.inicio{
+    color: $primaryBgColor;
+    text-align: center;
+    background-color: rgb(123, 162, 179);
+    padding: 5px;
+    font-size: $SizeXl;
+    border-top-style: dotted;
+    border-width: 2px;
+    }
+
+
+
+.parrafoinicial
+{
+    color: $ColorTexto1;
+    display: $DFlex;
+    flex-direction:$DflexR;
+    align-items:center;
+     
+    p{
+        padding: 15px;
+        margin: 10px;
+        font-size: 1.4rem;
+    }
+    
+    
+    img{
+        margin: 15px;}
+}

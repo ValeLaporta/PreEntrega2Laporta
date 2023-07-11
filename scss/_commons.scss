@@ -1,0 +1,26 @@
+main img {
+    width: 100%;
+    padding: 8px;
+}
+h2 
+    {
+        background-color:$secondaryBgColor;
+        padding: 10px 20px;
+        margin: 5px;
+        color:$blue;}
+
+body 
+    {
+        background-image: url(../imagenes/fondo.jpg);
+        background-repeat: repeat;
+        background-attachment: fixed;
+    }
+.titulos{
+    padding: 5px;
+    margin: 10px;
+    background-color:$thirdBgColor;
+    font-size: $SizeXl;
+    text-align: center;
+    color:$ColorTexto2;
+    }    
+    

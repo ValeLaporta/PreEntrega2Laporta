@@ -1,0 +1,14 @@
+    * {
+        font-family: 'Montserrat', sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;}
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+    @import "_variables";
+    @import "_nav";
+    @import "_index";
+    @import "_contacto";
+    @import "_empresa";
+    @import "_servicios";
+    @import "_trabajos-realizados";
+    @import "../node_modules/bootstrap/scss/bootstrap.scss";

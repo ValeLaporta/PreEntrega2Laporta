@@ -1,4 +1,9 @@
 .navegacion{
-    background-color:map-keys($bg-color:oscuro);
-    padding: 10px 30px;
-    margin: 8px;}
+    
+    background-color:$primaryBgColor;
+    margin:5px;
+
+    img
+        {width: 150px ;}
+        
+}

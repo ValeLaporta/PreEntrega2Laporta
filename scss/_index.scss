@@ -14,8 +14,6 @@
     border-width: 2px;
     }
 
-
-
 .parrafoinicial
 {
     color: $ColorTexto1;
@@ -23,13 +21,47 @@
     flex-direction:$DflexR;
     align-items:center;
      
+    
     p{
         padding: 15px;
         margin: 10px;
         font-size: 1.4rem;
     }
     
-    
     img{
-        margin: 15px;}
+        padding: 10px;
+    }
+}
+
+figure {
+    padding: 4px;
+    margin: auto;
+    display:block;
+    width: 300px;
+    height: auto; 
+    padding: 5px;
+    align-items: center;
+    
+    button{
+    background-color:$secondaryBgColor;
+    color:$ColorTexto2;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer; 
+    &:hover {
+        color:rgb(5, 47, 110);
+    }
+}
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video{
+    display: $DFlex;
+    justify-content: center;
+    margin: 5px;
 }

@@ -1,4 +1,4 @@
-@media ( width < 376px ) 
+@media ( width < 768px ) 
     {
     .parrafoinicial {
     display: flex;
@@ -12,4 +12,17 @@
         font-size: 1.2rem;
     }
     }
-    
+
+    @media ( width < 576px ) {
+        #galeria
+        {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-template-areas:
+            "fotoa"
+            "fotob"
+            "fotoc"
+            "fotod"
+            "fotoe";
+        }
+     }

@@ -37,7 +37,39 @@
   font-size: 1.4rem;
 }
 .parrafoinicial img {
-  margin: 15px;
+  padding: 10px;
+}
+
+figure {
+  padding: 4px;
+  margin: auto;
+  display: block;
+  width: 300px;
+  height: auto;
+  padding: 5px;
+  align-items: center;
+}
+figure button {
+  background-color: rgb(67, 174, 154);
+  color: rgb(18, 103, 138);
+  padding: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+figure button:hover {
+  color: rgb(5, 47, 110);
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
 }
 
 .contacto {
@@ -76,6 +108,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  margin: 2px;
 }
 
 .fotoa {
@@ -105,7 +138,7 @@
   grid-template-areas: "fotoe fotoc fotob" "fotoa fotod fotob";
 }
 
-@media (width < 376px) {
+@media (width < 768px) {
   .parrafoinicial {
     display: flex;
     flex-direction: column;
@@ -116,6 +149,13 @@
   }
   .inicio {
     font-size: 1.2rem;
+  }
+}
+@media (width < 576px) {
+  #galeria {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "fotoa" "fotob" "fotoc" "fotod" "fotoe";
   }
 }
 footer {
@@ -11992,7 +12032,7 @@ textarea.form-control-lg {
 }
 main img {
   width: 100%;
-  padding: 8px;
+  margin-bottom: 5px;
 }
 
 h2, .h2 {

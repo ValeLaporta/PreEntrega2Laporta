@@ -38,7 +38,7 @@ figure {
     margin: auto;
     display:block;
     width: 300px;
-    height: auto; 
+    height: 750px; 
     padding: 5px;
     align-items: center;
     
@@ -58,6 +58,11 @@ figure {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: $primaryBgColor;
+    color: $ColorTexto1;
+    font-size:$SizeSm;
+    font-weight: $textBold;
+    padding: 5px;
 }
 
 .video{

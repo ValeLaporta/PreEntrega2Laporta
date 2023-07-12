@@ -2,10 +2,10 @@
 {
     display: $DFlex;
     flex-direction:$DflexR;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     color:$ColorTexto1;
-    font-size: $SizeMd;
-    background-color:$thirdBgColor;
-    margin: 10px;
+    font-size: $SizeMd;;
+    margin: 30px;
+    font-weight: $textBold;
 }

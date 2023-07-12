@@ -45,7 +45,7 @@ figure {
   margin: auto;
   display: block;
   width: 300px;
-  height: auto;
+  height: 750px;
   padding: 5px;
   align-items: center;
 }
@@ -64,6 +64,11 @@ figure button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(18, 103, 138);
+  color: rgb(1, 52, 63);
+  font-size: 1em;
+  font-weight: 600;
+  padding: 5px;
 }
 
 .video {
@@ -87,21 +92,56 @@ figure button:hover {
 
 .empresa {
   margin: 10px;
-  font-size: 1.8em;
+  font-size: 1.4em;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+#historia {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: repeat(3 30vh);
+  grid-template-areas: "tituloh tituloh fotoh" "textoh textoh fotoh" "textoh textoh  fotoh2";
+}
+
+.fotoh1 {
+  grid-area: fotoh;
+  margin: 5px;
+}
+
+.textoh {
+  grid-area: textoh;
+  padding: 5px;
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.fotoh2 {
+  grid-area: fotoh2;
+  margin: 5px;
+}
+
+.tituloh {
+  grid-area: tituloh;
+  align-items: center;
+  background-color: rgb(67, 174, 154);
+  color: rgb(18, 103, 138);
+  font-weight: 600;
+  font-size: 1.8em;
+  line-break: 5px;
+}
+
 .servicios {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
   color: rgb(1, 52, 63);
   font-size: 1.4em;
-  background-color: rgb(123, 162, 179);
-  margin: 10px;
+  margin: 30px;
+  font-weight: 600;
 }
 
 #galeria {
@@ -12033,13 +12073,6 @@ textarea.form-control-lg {
 main img {
   width: 100%;
   margin-bottom: 5px;
-}
-
-h2, .h2 {
-  background-color: rgb(67, 174, 154);
-  padding: 10px 20px;
-  margin: 5px;
-  color: rgb(27, 27, 219);
 }
 
 body {

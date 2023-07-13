@@ -27,6 +27,15 @@
   align-items: center;
 }
 
+.textotrabajosrealizados {
+  font-size: 1em;
+  line-height: 30px;
+  color: rgb(1, 52, 63);
+  font-weight: 600;
+  align-items: center;
+  padding: 5px;
+}
+
 * {
   font-family: "Montserrat", sans-serif;
   padding: 0;

@@ -25,3 +25,7 @@ padding: 5px;
 {
     @include textos($SizeSm ,30px ,$ColorTexto1 ,$textBold,center )
 }
+.textotrabajosrealizados{
+    @include textos($SizeSm,30px, $ColorTexto1 ,$textBold , center );
+    padding: 5px;
+ }

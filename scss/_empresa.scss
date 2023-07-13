@@ -1,11 +1,12 @@
 .empresa{
     margin: 10px;
-    font-size:$SizeMd;
     display:$DFlex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
  }
-#historia{
+#historia
+{
     display: grid;
     grid-template-columns:auto auto auto ;
     grid-template-rows:repeat(3 30vh) ;
@@ -13,25 +14,26 @@
     "tituloh tituloh fotoh"
     "textoh textoh fotoh"
     "textoh textoh  fotoh2";
-}
-.fotoh1{
+    align-items: center;
+    padding: 10px;
+
+   .fotoh1{
     grid-area: fotoh;
     margin: 5px;
-}
+   }
 
-.textoh{
+   .textoh
+   {
     grid-area: textoh;
-    padding: 5px;
-    font-size: $SizeMd;
-    font-weight: $textBold;
-    line-height: 30px
-}
-.fotoh2{
+   }
+   .fotoh2
+   {
     grid-area: fotoh2;
     margin: 5px;
     
-}
-.tituloh{
+   }
+   .tituloh
+   {
     grid-area: tituloh;
     align-items: center;
     background-color: $secondaryBgColor;
@@ -39,4 +41,5 @@
     font-weight:$textBold;
     font-size: $SizeLg;
     line-break: 5px;
-}
+   }
+ }

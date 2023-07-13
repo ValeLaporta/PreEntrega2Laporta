@@ -16,5 +16,39 @@ body
     font-size: $SizeXl;
     text-align: center;
     color:$ColorTexto2;
-    }    
+    &:hover {
+        transform: scale(1.5);
+        cursor: pointer;
+        transition: all 2s;
+    }
+}    
+
+    footer{
+        display:$DFlex;
+        flex-direction:$DflexR;
+        justify-content: center;
+        background-color:$primaryBgColor;
+        
+            img {
+                margin-left: 25px;
+                width: 50px;
+                height: 50px;
+                padding: 10px;}
+    }
     
+    .navegacion{
+    
+        background-color:$primaryBgColor;
+        margin:5px;
+    
+        img
+            {width: 150px ;}
+    
+            a{
+                color: $white;
+                &:hover{
+                    color:$black;
+                }
+            }
+    }   
+

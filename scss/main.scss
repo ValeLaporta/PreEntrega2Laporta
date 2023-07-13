@@ -1,13 +1,13 @@
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
     @import "_variables";
-    @import "_nav";
+    @import "_mixins";
     @import "_index";
+    @import "_commons";
     @import "_contacto";
     @import "_empresa";
     @import "_servicios";
     @import "_trabajos-realizados";
     @import "_mediaqueries";
-    @import "_footer";
     @import "../node_modules/bootstrap/scss/bootstrap.scss";
-    @import "_commons"
     
+

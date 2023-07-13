@@ -63,6 +63,13 @@ figure {
     font-size:$SizeSm;
     font-weight: $textBold;
     padding: 5px;
+    
+    .btn-rounded{
+        @extend .btn;
+        border-style: hidden;
+        border-radius: 8px;
+        height: auto;
+    }
 }
 
 .video{

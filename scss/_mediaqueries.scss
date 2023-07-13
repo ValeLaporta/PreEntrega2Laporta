@@ -1,19 +1,5 @@
-@media ( width < 768px ) 
+ @media ( width < 576px ) 
     {
-    .parrafoinicial {
-    display: flex;
-    flex-direction:column;
-    font-size: $SizeSm;
-    }
-    img {
-        align-items: end;
-    }
-    .inicio{
-        font-size: 1.2rem;
-    }
-    }
-
-    @media ( width < 576px ) {
         #galeria
         {
             grid-template-columns: 1fr;
@@ -25,4 +11,36 @@
             "fotod"
             "fotoe";
         }
-     }
+        #historia{
+            display: grid;
+            grid-template-columns:1fr ;
+            grid-template-rows:auto;
+            grid-template-areas:
+            "tituloh"
+            "fotoh"
+            "textoh"
+            "fotoh2";
+        }
+        .tarjetas{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: $primaryBgColor;
+            color: $ColorTexto1;
+            font-size:$SizeSm;
+            font-weight: $textBold;
+            padding: 5px;
+        } 
+        .parrafoinicial {
+            display: flex;
+            flex-direction:column;
+            font-size: $SizeSm;
+        }
+        img {
+            align-items: end;
+        }
+        .inicio{
+            font-size: 1.2rem;
+        }
+    }
+     

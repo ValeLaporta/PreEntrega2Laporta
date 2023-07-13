@@ -1,0 +1,27 @@
+.btn{
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 4px;
+    background-color:$thirdBgColor;
+}
+@mixin textos( $size,$line,$color,$weight,$align)
+{
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+    font-weight:$weight;
+    align-items: $align
+}
+
+.textoh{
+    @include textos( $SizeSm , 40px,$ColorTexto1,$textBold,center ) ;
+padding: 5px;
+
+}
+.empresa
+{
+    @include textos($SizeSm ,30px ,$ColorTexto1 ,$textBold,center )
+}

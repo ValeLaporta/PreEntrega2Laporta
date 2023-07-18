@@ -42,8 +42,8 @@ figure {
     padding: 5px;
     align-items: center;
     
-    button{
-    background-color:$secondaryBgColor;
+    .btn{
+    background-color:$thirdBgColor;
     color:$ColorTexto2;
     padding: 2px;
     text-align: center;

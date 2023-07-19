@@ -119,6 +119,7 @@ body {
   background-image: url(../imagenes/fondo.jpg);
   background-repeat: repeat;
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 .titulos {

@@ -110,16 +110,14 @@ figure .btn:hover, figure .tarjetas .btn-rounded:hover, .tarjetas figure .btn-ro
   margin: 5px;
 }
 
+* {
+  overflow-x: hidden;
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+}
+
 main img {
   width: 100%;
   margin-bottom: 5px;
-}
-
-body {
-  background-image: url(../imagenes/fondo.jpg);
-  background-repeat: repeat;
-  background-attachment: fixed;
-  overflow-x: hidden;
 }
 
 .titulos {

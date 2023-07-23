@@ -4,6 +4,9 @@
     display:$DFlex;
     align-content: space-around;
     
+    form{
+        background-color: rgba(246, 246, 246,0.5);
+    }
 
     label{
         font-size:$SizeSm;

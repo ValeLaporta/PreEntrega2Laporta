@@ -166,6 +166,9 @@ footer img {
   display: flex;
   align-content: space-around;
 }
+.contacto form {
+  background-color: rgba(246, 246, 246, 0.5);
+}
 .contacto label {
   font-size: 1em;
   display: flex;

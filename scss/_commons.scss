@@ -1,14 +1,15 @@
-* 
-{
+* {
 overflow-x: hidden;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
  }
+main{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,20,229,1) 0%, rgba(0,212,255,1) 100%); 
 
-main img {
+    img {
     width: 100%;
     margin-bottom: 5px;
 }
-
+}
 
 .titulos{
     padding: 5px;
@@ -40,8 +41,7 @@ main img {
     .navegacion{
     
         background-color:$primaryBgColor;
-        margin:5px;
-    
+          
         img
             {width: 150px ;}
     
@@ -51,5 +51,6 @@ main img {
                     color:$black;
                 }
             }
+
     }   
 

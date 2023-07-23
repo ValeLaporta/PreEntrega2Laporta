@@ -9,3 +9,13 @@
     margin: 30px;
     font-weight: $textBold;
 }
+.btn-primary{
+ @extend .btn;
+ border-style: hidden;
+ border-radius: 8px;
+ height: auto;
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,20,229,1) 0%, rgba(0,212,255,1) 100%); 
+ &:hover {
+    color:rgb(5, 47, 110);
+}
+}

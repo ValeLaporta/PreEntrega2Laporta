@@ -315,6 +315,14 @@ footer img {
     grid-template-rows: auto;
     grid-template-areas: "" "";
   }
+  .error {
+    display: block;
+    text-align: center;
+  }
+  .error img {
+    width: 350px;
+    height: 350px;
+  }
 }
 /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)

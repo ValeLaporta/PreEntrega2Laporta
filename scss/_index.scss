@@ -33,25 +33,6 @@
     }
 }
 
-figure {
-    padding: 4px;
-    display:block;
-    width: 300px;
-    height: 800px; 
-    padding: 5px;
-    align-items: center;
-    
-    .btn{
-    background-color:$thirdBgColor;
-    color:$ColorTexto2;
-    padding: 2px;
-    text-align: center;
-    cursor: pointer; 
-    &:hover {
-        color:rgb(5, 47, 110);
-    }
-}
-}
 
 .tarjetas{
     display: flex;
@@ -66,6 +47,25 @@ figure {
         border-style: hidden;
         border-radius: 8px;
         height: auto;
+    }
+    figure {
+        padding: 4px;
+        display:block;
+        width: 300px;
+        height: 800px; 
+        padding: 5px;
+        align-items: center;
+        
+        .btn{
+        background-color:$thirdBgColor;
+        color:$ColorTexto2;
+        padding: 2px;
+        text-align: center;
+        cursor: pointer; 
+        &:hover {
+            background-color:rgb(87, 125, 181);
+        }
+    }
     }
 }
 

@@ -68,25 +68,6 @@
   padding: 10px;
 }
 
-figure {
-  padding: 4px;
-  display: block;
-  width: 300px;
-  height: 800px;
-  padding: 5px;
-  align-items: center;
-}
-figure .btn, figure .btn-primary, figure .tarjetas .btn-rounded, .tarjetas figure .btn-rounded {
-  background-color: rgb(123, 162, 179);
-  color: rgb(18, 103, 138);
-  padding: 2px;
-  text-align: center;
-  cursor: pointer;
-}
-figure .btn:hover, figure .btn-primary:hover, figure .tarjetas .btn-rounded:hover, .tarjetas figure .btn-rounded:hover {
-  color: rgb(5, 47, 110);
-}
-
 .tarjetas {
   display: flex;
   justify-content: space-between;
@@ -99,6 +80,24 @@ figure .btn:hover, figure .btn-primary:hover, figure .tarjetas .btn-rounded:hove
   border-style: hidden;
   border-radius: 8px;
   height: auto;
+}
+.tarjetas figure {
+  padding: 4px;
+  display: block;
+  width: 300px;
+  height: 800px;
+  padding: 5px;
+  align-items: center;
+}
+.tarjetas figure .btn, .tarjetas figure .btn-primary, .tarjetas figure .btn-rounded {
+  background-color: rgb(123, 162, 179);
+  color: rgb(18, 103, 138);
+  padding: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+.tarjetas figure .btn:hover, .tarjetas figure .btn-primary:hover, .tarjetas figure .btn-rounded:hover {
+  background-color: rgb(87, 125, 181);
 }
 
 .video {

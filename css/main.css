@@ -230,9 +230,6 @@ footer img {
   height: auto;
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(20, 20, 229) 0%, rgb(0, 212, 255) 100%);
 }
-.btn-primary:hover {
-  color: rgb(5, 47, 110);
-}
 
 #galeria {
   width: 100%;

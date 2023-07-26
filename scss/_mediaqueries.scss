@@ -1,4 +1,4 @@
- @media ( width < 576px ) 
+ @media ( width < 577px ) 
     {
         #galeria
         {
@@ -41,6 +41,23 @@
         }
         .inicio{
             font-size: 1.2rem;
+        }
+        .container
+        {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "" 
+        ""
+        }
+        .error{
+            display: block;
+            text-align: center;
+        
+            img{
+                width: 350px;
+                height: 350px;
+            }
         }
     }
      
